@@ -194,6 +194,13 @@ main {
     line-height: 2rem;
 }
 
+@media screen and (max-width: 920px) {
+  .subject {
+    flex-direction: column;
+    flex-basis: 100%;
+  }
+}
+
 .subject__figure {
     flex: 0 0 auto;
     width: 5.5rem;
@@ -212,11 +219,15 @@ main {
 
 .subject__description {
     margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 2rem;
 }
 
 .subject__link {
     color: #4C5FD5;
     text-decoration: none;
+    font-size: 1.25rem;
+    line-height: 2rem;
 }
 
 .subject__link:hover {
